@@ -1,3 +1,8 @@
+branches:
+  only:
+  - master
+  - stable
+  - release
 dist: xenial
 addons:
   chrome: stable
