@@ -65,6 +65,9 @@ ClassicEditor.builtinPlugins = [
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
+	alignment: {
+		options: [ 'left', 'right', 'center', 'justify' ]
+	},
 	toolbar: {
 		items: [
 			'heading',
@@ -77,6 +80,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'outdent',
 			'indent',
+			'alignment',
 			'|',
 			'uploadImage',
 			'blockQuote',
