@@ -72,6 +72,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "preversion": "npm run build"
+    "preversion": "npm run build",
+    "publ": "npm publish --registry http://infor.trans-monitor.ru:4873"
   }
 }
